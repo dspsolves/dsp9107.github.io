@@ -2,17 +2,17 @@
 
 :zap: **Quick Learner**
 
+:raising_hand: **Curious**
+
 :muscle: **Problem Solver**
+
+:snowflake: **Calm**
 
 :wink: **Ambivert**
 
-:unamused: **Critic**
-
 :dash: **Agile**
 
-:raising_hand: **Curious**
-
-:snowflake: **Calm**
+:unamused: **Critic**
 
 In :heart: with :octocat: . Check out my work [@dsp9107](github.com/dsp9107)
 
