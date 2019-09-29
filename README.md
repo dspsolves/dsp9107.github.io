@@ -1,5 +1,3 @@
-# Dhawal Singh Panwar
-
 :zap: **Quick Learner**
 
 :raising_hand: **Curious**
