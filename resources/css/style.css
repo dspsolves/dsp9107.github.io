@@ -5,6 +5,11 @@ body {
         rgba(142, 45, 226, 1) 0%,
         rgba(74, 0, 224, 1) 100%
     );
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
 }
 
 div {
