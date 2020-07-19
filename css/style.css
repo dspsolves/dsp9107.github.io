@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fullpage {
+    height: 100vh;
+}
+
+#fullpage .section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#fullpage .section h1 {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 100vh;
+}
+
+#fullpage .section .slide {
+    text-align: center;
+}
+
+#fullpage .section:nth-child(1) {
+    background-image: url("../images/one.jpg");
+}
+
+#fullpage .section:nth-child(2) {
+    background-image: url("../images/two.jpg");
+}
+
+#fullpage .section:nth-child(3) {
+    background-image: url("../images/three.jpg");
+}
