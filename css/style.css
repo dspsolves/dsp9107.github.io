@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: "leagueSpartan";
+    src: url("../fonts/LeagueSpartan-Bold.otf");
+}
+
+:root {
+    --color-primary: black;
+    --color-secondary: white;
+    --color-accent: #ffe61b;
+    --font-sanchez: "Sanchez", serif;
+    --font-spartan: "leagueSpartan", serif;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+#fullpage {
+    height: 100vh;
+}
+
+#fullpage .section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#fullpage .section:nth-child(1) {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+#fullpage .section:nth-child(2) {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+#fullpage .section:nth-child(3) {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+/* NAVIGATION BULLETS */
+
+#fp-nav > ul > li:nth-child(1) > a > span {
+    background: #808080;
+}
+
+#fp-nav > ul > li:nth-child(1) > a.active > span {
+    background: var(--color-primary);
+}
+
+#fp-nav > ul > li:nth-child(2) > a > span {
+    background: #808080;
+}
+
+#fp-nav > ul > li:nth-child(2) > a.active > span {
+    /* background: #808080; */
+    background: var(--color-secondary);
+}
+
+#fp-nav > ul > li:nth-child(3) > a > span {
+    background: #808080;
+}
+
+#fp-nav > ul > li:nth-child(3) > a.active > span {
+    background: var(--color-primary);
+}
+
+/* GRIDS */
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    padding-left: 5%;
+}
+
+.row.name {
+    margin-bottom: 1vh;
+}
+
+.row.name span {
+    font-family: var(--font-spartan);
+    text-transform: uppercase;
+}
+
+.row.title {
+    margin-bottom: 2rem;
+}
+
+.row.title span {
+    font-family: var(--font-sanchez);
+    text-transform: lowercase;
+}
+
+.row.projects-title {
+    margin-top: 1rem;
+    color: var(--color-secondary);
+}
+
+@media only screen and (max-width: 576px) {
+    .row.name span {
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 4px;
+    }
+    .row.title span {
+        font-size: 24px;
+    }
+    .row.projects-title {
+        font-size: 24px;
+        margin-top: -5rem;
+        margin-bottom: 3rem;
+    }
+    .contact .row.title span {
+        font-size: 20px;
+        line-height: 3rem;
+    }
+    .fp-controlArrow {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    .row.name span {
+        font-size: 70px;
+        line-height: 94px;
+        letter-spacing: 7px;
+    }
+    .row.title span {
+        font-size: 48px;
+    }
+    .row.projects-title {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .contact .row.title span {
+        line-height: 5rem;
+    }
+
+    /* body[class*="projects"] #fp-nav {
+        display: none;
+    } */
+}
+
+.card {
+    color: var(--color-primary);
+    width: 256px !important;
+}
+
+.card-img-top {
+    padding: 20px;
+}
+
+.slide {
+    height: 420px !important;
+    display: flex !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    padding: 0 !important;
+}
+
+.fp-controlArrow.fp-prev {
+    border-right-color: var(--color-accent) !important;
+}
+.fp-controlArrow.fp-next {
+    border-left-color: var(--color-accent) !important;
+    margin-right: 3rem;
+}

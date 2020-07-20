@@ -1,15 +1,13 @@
-:zap: **Quick Learner**
+This repo contains all the pertinent files to my portfolio site.
 
-:raising_hand: **Curious**
+My site can be reached at [dhawalsinghpanwar.codes](https://dhawalsinghpanwar.codes/) or [dsp9107.github.io](https://dsp9107.github.io/)
 
-:muscle: **Problem Solver**
+:zap:
+:raising_hand:
+:muscle:
+:snowflake:
+:wink:
+:dash:
+:unamused:
 
-:snowflake: **Calm**
-
-:wink: **Ambivert**
-
-:dash: **Agile**
-
-:unamused: **Critic**
-
-Check out my work [@dsp9107](https://github.com/dsp9107) or :envelope: to [dsp9107@outlook.com](mailto:dsp9107@outlook.com?subject=[GitHub]%20Might%20Be%20Important)
+Check out more of my work [@dsp9107](https://github.com/dsp9107) or :envelope: to [dsp9107@outlook.com](mailto:dsp9107@outlook.com?subject=[GitHub]%20Might%20Be%20Important)
