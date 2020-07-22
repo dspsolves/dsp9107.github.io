@@ -96,6 +96,10 @@ body {
     font-family: var(--font-spartan);
     text-transform: uppercase;
 }
+.row.name h1 {
+    font-family: var(--font-spartan);
+    text-transform: uppercase;
+}
 
 .row.title {
     margin-bottom: 2rem;
@@ -113,6 +117,11 @@ body {
 
 @media only screen and (max-width: 576px) {
     .row.name span {
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 4px;
+    }
+    .row.name h1 {
         font-size: 48px;
         line-height: 60px;
         letter-spacing: 4px;
@@ -140,6 +149,11 @@ body {
         line-height: 94px;
         letter-spacing: 7px;
     }
+    .row.name h1 {
+        font-size: 70px;
+        line-height: 94px;
+        letter-spacing: 7px;
+    }
     .row.title span {
         font-size: 48px;
     }
@@ -163,6 +177,7 @@ body {
 
 .card-img-top {
     padding: 20px;
+    width: 214px;
 }
 
 .slide {
