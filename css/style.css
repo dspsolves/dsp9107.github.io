@@ -8,17 +8,17 @@
     font-family: "leagueSpartan";
     src: url("../fonts/LeagueSpartan-Bold.otf");
 }
+@font-face {
+    font-family: "sanchez";
+    src: url("../fonts/Sanchez-Regular.ttf");
+}
 
 :root {
     --color-primary: black;
     --color-secondary: white;
     --color-accent: #ffe61b;
-    --font-sanchez: "Sanchez", serif;
+    --font-sanchez: "sanchez", serif;
     --font-spartan: "leagueSpartan", serif;
-}
-
-body {
-    font-family: "Open Sans", sans-serif;
 }
 
 #fullpage {
