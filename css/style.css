@@ -166,8 +166,8 @@ body {
 }
 
 .card-img-top {
-    padding: 20px;
-    width: 214px;
+    margin: 20px;
+    width: 214px !important;
 }
 
 .slide {
