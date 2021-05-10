@@ -5,8 +5,8 @@
 }
 
 .container {
-  height: 100vh;
-  background-color: azure;
+  min-height: 100vh;
+  /* background-color: azure; */
 }
 
 .row {
