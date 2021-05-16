@@ -1,4 +1,4 @@
-This repo contains all the pertinent files to my portfolio site.
+This repository contains all the pertinent files to my portfolio site.
 
 My site can be reached at [dspsolves.in](https://dspsolves.in) or [dsp9107.github.io](https://dsp9107.github.io)
 
