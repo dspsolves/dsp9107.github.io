@@ -23,6 +23,24 @@
   justify-content: center;
 }
 
+@media only screen and (max-width: 385px) {
+  .container.first .display-2 {
+    font-size: 32px;
+  }
+
+  .container.first .display-6 {
+    margin-top: 0.4rem !important;
+    font-size: 24px;
+  }
+
+  #cta-landing-contact-me-btn {
+    margin-top: 1.6rem;
+    color: #fff;
+    background-color: #039be5;
+    border-color: #039be5;
+  }
+}
+
 .container.first .display-6 {
   margin-top: 1.4rem;
 }
@@ -36,9 +54,9 @@
   padding-bottom: 2rem;
 }
 
-/* .technologies-inner-container {
-  margin-bottom: 2rem;
-} */
+.technologies-inner-container .display-6 {
+  margin-top: 1.6rem;
+}
 
 .row.tech-row {
   margin-top: 2rem;
@@ -54,20 +72,33 @@
 }
 
 .tech-svg-container {
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1rem;
 }
 
-.tech-svg {
-  width: 60px;
-  height: 60px;
+.tech-svg-inner-container {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
   transition: all 0.1s ease-in-out;
 }
 
-.tech-svg-container:hover .tech-svg {
-  transform: scale(1.1);
+.tech-svg {
+  width: 40px;
+  height: 40px;
+  transition: all 0.1s ease-in-out;
+}
+
+.tech-svg-inner-container:hover .tech-svg {
+  transform: scale(1.25);
+}
+
+.tech-svg-inner-container:hover {
+  border-radius: 10px;
 }
 
 .projects-container {
