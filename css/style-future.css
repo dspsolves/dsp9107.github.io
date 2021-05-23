@@ -71,6 +71,45 @@
   flex-wrap: wrap;
 }
 
+@keyframes jumpImg {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes jumpContainer {
+  0% {
+    transform: scale3d(1, 1, 1);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-radius: 20px;
+  }
+  40% {
+    transform: scale3d(1.1, 1.1, 1.1);
+    box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.075);
+    border-radius: 10px;
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-radius: 20px;
+  }
+}
+
+.jump {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.jump:hover {
+  animation: jumpContainer 0.5s linear alternate 1;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
 .tech-svg-container {
   height: 80px;
   display: flex;
@@ -84,31 +123,22 @@
   background-color: #fff;
   border-radius: 20px;
   cursor: pointer;
-  transition: all 0.1s ease-in-out;
 }
 
 .tech-svg {
   width: 40px;
   height: 40px;
-  transition: all 0.1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .tech-svg-inner-container:hover .tech-svg {
-  transform: scale(1.25);
-}
-
-.tech-svg-inner-container:hover {
-  border-radius: 10px;
+  animation: jumpImg 0.5s linear alternate 1;
 }
 
 .projects-container {
   margin-top: 2rem;
   padding-bottom: 2rem;
 }
-
-/* .projects-inner-container {
-  margin-bottom: 2rem;
-} */
 
 .row.project-row {
   margin-top: 2rem;
