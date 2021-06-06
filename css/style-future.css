@@ -197,11 +197,12 @@
 }
 
 .git-stats-icon-container {
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2px;
   margin-right: 6px;
 }
 
@@ -212,7 +213,7 @@
 
 .git-stats-container .last-commit-info {
   margin: 0;
-  cursor: pointer;
+  cursor: default;
 }
 
 #cta-projects-view-more-btn {
