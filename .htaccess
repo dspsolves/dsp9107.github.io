@@ -54,3 +54,6 @@ ExpiresDefault "access plus 1 week"
   BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
   Header append Vary User-Agent
 </IfModule>
+
+Redirect /future /index.html
+Redirect /future.html /index.html
